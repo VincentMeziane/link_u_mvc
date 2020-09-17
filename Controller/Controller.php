@@ -11,8 +11,7 @@ abstract class Controller
 
     public function __construct()
     {
-        $this->paramGet = $_GET ?? array("page"=>"category", "action"=>"list");
-        $this->paramPost = $_POST ?? array("page"=>"category", "action"=>"list");
-
+        $this->paramGet = $_GET ?? array("page"=>"tickets", "action"=>"list");
+        $this->paramPost = $_POST ?? array("page"=>"tickets", "action"=>"list");
     }
 }

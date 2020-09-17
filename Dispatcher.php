@@ -5,7 +5,7 @@ include 'Controller/Controller.php';
 class Dispatcher {
    
     public function dispatch(){
-        $controller = $_GET['page'] ?? 'ticket';
+        $controller = $_GET['page'] ?? 'tickets';
         $controller = ucfirst($controller)."Controller";
         $action = $_GET['action'] ?? 'list';
         $action = $action."Action";
