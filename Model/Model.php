@@ -3,14 +3,14 @@ abstract class Model {
     protected $connection;
     protected $request;
 
-    const SERVER = 'sqlprive-pc2372-001.privatesql.ha.ovh.net';
-    const USER = 'cefiidev1010';
-    const PASSWORD = 'iC97uU9z';
-    const BASE = 'cefiidev1010';
-    // const SERVER = 'localhost';
-    // const USER = 'root';
-    // const PASSWORD = '';
-    // const BASE = 'php2';
+    // const SERVER = 'sqlprive-pc2372-001.privatesql.ha.ovh.net';
+    // const USER = 'cefiidev1010';
+    // const PASSWORD = 'iC97uU9z';
+    // const BASE = 'cefiidev1010';
+    const SERVER = 'localhost';
+    const USER = 'root';
+    const PASSWORD = '';
+    const BASE = 'linku';
     public function __construct()
     {
        try {
