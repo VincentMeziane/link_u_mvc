@@ -12,7 +12,7 @@ class TicketsModel extends Model{
         }
     
     }
-    public function updateStatus($id,$statut){  
+    public function updateStatut($id,$statut){  
         try{
             $this->requete = $this->connexion->prepare("UPDATE linku_kontakt SET statut=:statut
                                             WHERE id=:id");
