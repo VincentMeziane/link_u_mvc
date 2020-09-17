@@ -1,0 +1,14 @@
+a{
+    text-decoration: none ;
+    transition: 0.3s ease-in-out;
+}
+a:hover{
+    text-decoration: none ;
+    color: coral !important;
+}
+a i{
+    transition: 0.3s ease-in-out;
+}
+a:hover i {
+    color: coral !important;
+}
